@@ -8,4 +8,6 @@ It’s your 30th birthday (congrats, by the way), and your friends bought you a 
 
 The average number of times you need to blow the candles is 4.50186. You can find my monte carlo simulation at https://github.com/mnunes/Birthday-Candles/blob/master/birthdayCandles.R . The code run for all ages between 1 and 100, 50,000 times each. It took 2495.047 seconds (0.693068611 hours) to run completely.
 
-![alt text](birthdayCandles.png "Simulation Result")
+The lines `LimInf` and `LimSup` in the plot are the 95% empirical confidence intervals for the simulation.
+
+![alt text](birthdayCandles.png "Simulation Results")
