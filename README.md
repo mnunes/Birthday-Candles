@@ -10,4 +10,4 @@ The average number of times you need to blow the candles is 4.50186. You can fin
 
 The lines `LimInf` and `LimSup` in the plot are the 95% empirical confidence intervals for the simulation.
 
-![alt text](birthdayCandles.png "Simulation Results")
+![alt text](birthdayCandles2.png "Simulation Results")
