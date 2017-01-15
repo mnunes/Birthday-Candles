@@ -40,4 +40,4 @@ result[, 4] <- apply(sim, 2, q975)
 
 names(result) <- c("Age", "LimInf", "Average", "LimSup")
 
-ggplot(result, aes(age)) + geom_line(aes(y=LimInf, colour="LimInf")) + geom_line(aes(y=Average, colour="Average")) + geom_line(aes(y=LimSup, colour="LimSup")) + ylim(0, 10) + theme_bw()
+ggplot(result, aes(age)) + geom_line(aes(y=LimInf, colour="LimInf")) + geom_line(aes(y=Average, colour="Average")) + geom_line(aes(y=LimSup, colour="LimSup")) + ylim(0, 10) + labs(x="Age", y="Number of Trials") + theme_bw()
